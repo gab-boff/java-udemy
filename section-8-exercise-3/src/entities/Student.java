@@ -15,7 +15,7 @@ public class Student {
             return 60.0 - finalGrade();
         }
         else {
-            return 0;
+            return 0.0;
         }
     }
 }

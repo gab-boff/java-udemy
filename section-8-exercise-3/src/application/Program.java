@@ -13,11 +13,19 @@ public class Program {
 
         Student student = new Student();
 
+        System.out.print("Student name: ");
         student.name = sc.nextLine();
+
+        System.out.print("Student grade 1: ");
         student.grade1 = sc.nextDouble();
+
+        System.out.print("Student grade 2: ");
         student.grade2 = sc.nextDouble();
+
+        System.out.print("Student grade 3: ");
         student.grade3 = sc.nextDouble();
 
+        System.out.println();
         System.out.printf("FINAL GRADE = %.2f%n", student.finalGrade());
 
         if (student.finalGrade() < 60.0) {
